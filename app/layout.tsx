@@ -5,6 +5,9 @@ import Providers from "./providers";
 export const metadata = {
   title: "Blackstorm",
   description: "",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
