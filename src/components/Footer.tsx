@@ -62,7 +62,18 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
-            Motos 100% eléctricas · Cero emisiones · Movilidad sustentable
+            Motos 100% eléctricas · Cero emisiones · Movilidad sustentable aqui
+          </p>
+          <p className="text-muted-foreground text-sm mt-2">
+            Powered by{" "}
+            <a
+              href="https://maketastudio.com.mx/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary"
+            >
+              Maketa Studio
+            </a>
           </p>
         </div>
       </div>
